@@ -28,6 +28,11 @@ class AuthController extends Controller
      *
      * @var string
      */
+//     //  Path Customization
+//
+// When a user is successfully authenticated, they will be redirected to the / URI. You can customize the post-authentication redirect location by defining a redirectTo property on the AuthController:
+//
+// protected $redirectTo = '/home';
     protected $redirectTo = '/';
 
     /**
